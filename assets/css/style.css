@@ -1,0 +1,33 @@
+/* header section in index/input screen */
+.header-Introduction {
+    background-color: #7a7171;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    flex: auto;
+    word-wrap: normal;
+    flex-shrink: 1;
+
+}
+
+.header-Introduction h1 {
+    color: rgb(43, 214, 226);
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 30px;
+    
+}
+
+
+/* the body section of the index page */
+.left-side {
+    background-color: aqua;
+}
+
+.right-side {
+    background-color: blueviolet;
+}
+
+body {
+    margin-left: auto;
+    margin-right: auto;
+}
