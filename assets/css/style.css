@@ -5,14 +5,27 @@ header {
     max-height: 50px;  
 }
 
-header h1 {
+header button {
     grid-column: 100;
     text-align: center;
     flex-shrink: 1;
     background-color: rgb(15, 30, 30);
+    cursor: pointer;
 }
 
+/* lightmodes themes */
 
+
+
+.light {
+    background-color: white;
+    color: black;
+}
+
+.dark {
+    background-color: rgb(15, 30, 30);
+    color: white;
+}
 
 
 
@@ -21,7 +34,9 @@ header h1 {
 body {
     display: grid;
     grid-gap: 10px;
-    word-wrap: normal;  
+    word-wrap: normal;     
+    background-color: white;
+    color: black; 
 }
 
 
