@@ -23,14 +23,6 @@ displayChange.addEventListener('click', function() {
 
 
 
-// testing 2 separate functions for comor theme change rathern than an if/else statement
-// displayChange.addEventListener('click', myFunction() {
-//     var element = document.body.header.h1;
-//     element.classList.toggle("darkmode");
-    
-// })
-
-
 
 
 

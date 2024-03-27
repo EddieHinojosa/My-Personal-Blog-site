@@ -1,0 +1,19 @@
+
+/* style sheet for the posted blog section */
+
+body .topSec {
+    display: flex;
+    display: grid;
+    grid-template-columns: 16fr 1fr;
+}
+
+.topSec h1{
+    color: black;
+    grid-column: 1;
+}
+
+.topSec button {
+    text-align: center;
+    grid-column: 2;
+}
+

@@ -9,7 +9,6 @@ header button {
     grid-column: 100;
     text-align: center;
     flex-shrink: 1;
-    background-color: rgb(15, 30, 30);
     cursor: pointer;
 }
 
