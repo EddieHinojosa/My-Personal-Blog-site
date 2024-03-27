@@ -17,22 +17,27 @@
 <body class="lightmode">
     <header>
         <h1 colorTheme="lightmode" id="displayChange">☀️</h1>
-        <h1></h1>
-        <h1></h1>
     </header>
     
     <main>
         <section class="header-Introduction">
-            <h1>Welcome to my blog, what do you want to write about?</h1>
+            <content>
+                <h1>Welcome to my blog, what do you want to write about?</h1>
+            </content>
         </section>
         
-        <section class="left-side">
-            <h1>Let's get to writing!!</h1>
-            <div class="right-side">
+        <columns class ="columns">
+            <columnLeft class="left-column">
+                <content>
+                    <h1>Let's get to writing!!</h1>
+                </content>
+            </columnLeft>
+            <columnRight class="right-column">
                 <h2>Username</h2>
                 <h2>Title</h2>
                 <h2>Content</h2>
-        </section>
+            </columnRight>
+        </columns>
     </main> 
 </body>
 </html>

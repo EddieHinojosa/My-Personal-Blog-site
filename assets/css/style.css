@@ -30,6 +30,25 @@ body {
     word-wrap: normal;   
 }
 
+.columns {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.left-column {
+    display: grid;
+    background-color: aqua;
+    grid-column: 1;
+}
+
+.right-column {     
+    display: grid;  
+    grid-column: 2;
+    background-color: blueviolet;
+}
+
+
+
 
 .header-Introduction {
     max-height: 60px;
@@ -43,8 +62,6 @@ body {
     word-wrap: normal;
     flex-shrink: 1;
 
-    
-
 }
 
 .header-Introduction h1 {
@@ -54,12 +71,3 @@ body {
     
 }
 
-
-/* the body section of the index page */
-.left-side {
-    background-color: aqua;
-}
-
-.right-side {
-    background-color: blueviolet;
-}
