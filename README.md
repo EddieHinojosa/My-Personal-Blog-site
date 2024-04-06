@@ -20,3 +20,5 @@ https://github.com/EddieHinojosa/My-Personal-Blog-site.git
 
 Repo SSH
 git@github.com:EddieHinojosa/My-Personal-Blog-site.git
+
+By Eddie Hinojosa   
