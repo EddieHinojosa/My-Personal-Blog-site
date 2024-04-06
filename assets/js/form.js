@@ -1,15 +1,19 @@
 // main page where you write the blog
 
-function saveInput() {
-    // Get the input value
-    var input = document.getElementById('myInput').value;
+document.getElementById('blogInput').addEventListener('submitBtn', function(event) {
+    event.preventDefault();
+    const username = document.getElementById('username').value;
+    const blogTitle = document.getElementById('blogTitle').value;
+    const blog = document.getElementById('blog').value;
 
-    // Get the section
-    var section = document.getElementById('mySection');
 
-    // Create a new text node with the input value
-    var textNode = document.createTextNode(input);
+    const savedBlog = { username, blogTitle, blog };
 
-    // Append the text node to the section
-    section.appendChild(textNode);
-}
+    // Save to local storage
+    let blogInput = JSON.parse(localStorage.getItem('blogInput')) || [];
+    posts.push(savedBlog);
+    localStorage.setItem('posts', JSON.stringify(blogInput));
+
+    // Redirect to blog page
+    window.location.href = 'Blog.html';
+});

@@ -17,19 +17,19 @@
             <!-- <link rel="stylesheet" href="Blog.html">View our posts</link>    -------------------- add link to saved blogs -->
     </topSec>
 
-    <main id=blogInput class = "blogInput">  
+    <main id=blogInputAll>  
         <!-- input section of the blog, username, title, blog text -->
-        <form class="blogLogs">
+        <form id="blogInput">
             <!-- usename -->
             <label for="username"> Username:
                     <input type="text" id="username" required></input>
             </label>
             <!-- blog title -->
-            <label for="blogTitle">Blog Title:
+            <label for="blogTitle"> Title:
                     <input type="text" id="blogTitle" required></input>
             </label>    
             <!-- blog text -->
-            <label for="writingPortion">Write your post:
+            <label for="writingPortion">Write your blog:
                     <input type="text" id="post" required></input>
             </label>
             
@@ -39,6 +39,6 @@
     </main>
     
     <script src = "./assets/js/logic.js"></script>
-    <script src="./assets/js/form.js"></script>
+    <script src = "./assets/js/form.js"></script>
 </body>
 </html>

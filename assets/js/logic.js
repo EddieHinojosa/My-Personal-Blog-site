@@ -1,4 +1,4 @@
-// this JS section is for the light/dark mode toggle button
+// this JS section is for the light/dark mode toggle button, lines 5-22
 
     //Define variables
 
@@ -20,6 +20,7 @@ displayChange.addEventListener('click', function() {
         console.log('lets go lightmode');
     }
 });
+
 
 
 
