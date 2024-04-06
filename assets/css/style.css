@@ -35,7 +35,8 @@ body {
     grid-gap: 10px;
     word-wrap: normal;     
     background-color: white;
-    color: black; 
+    color: black;
+
 }
 
 
@@ -48,9 +49,8 @@ body {
     padding-top: 10px;
     height: 500px;
     width: 98%;
-    border-style:groove
-    /* border-style: dashed; */
-}
+    border-style: double;
+    }
 
 
 .left-column {
@@ -66,6 +66,7 @@ body {
     height: 100%;
     grid-template-rows: 1fr 2fr 1fr 2fr 1fr 2fr;
     flex-wrap: wrap;
+    
 }
 
 
@@ -80,9 +81,14 @@ body {
     color: black;
     padding-top: 0px;
     padding-bottom: 10px;
-
 }
 
+.submitBtn {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: black;
+}
 
 
 

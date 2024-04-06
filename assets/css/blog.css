@@ -17,3 +17,21 @@ body .topSec {
     grid-column: 2;
 }
 
+
+.savedBlogs {
+    grid-gap: 10px;
+    padding-top: 10px;
+    height: 500px;
+    width: 98%;
+    border-style: double;
+}
+
+
+.savedBlogs h1 {
+    text-align: center;
+    
+}
+
+
+
+

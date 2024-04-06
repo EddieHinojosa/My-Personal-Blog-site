@@ -4,32 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog logs</title>
-    <link rel="stylesheet" href="./assets/css/blog.css">
+    <link rel="stylesheet" href="./assets/css/form.css">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 
 <body class="lightmode">
     <topSec class = topSec>
-            <h1>Blog Logs</h1>
-            <button data-theme="lightmode" id="displayChange">☀️</button>
+        <!-- header part of the blog page-->
+            <h1>Create your blog</h1>
+            <button data-theme="lightmode" id="displayChange">☀️ Light Mode</button>
+            <link rel="stylesheet" href="Blog.html">View our posts</link>
     </topSec>
 
-    <main>  
+    <main id=blogInput class = "blogInput">  
         
-        <section class="right-column">
-            <label for="username">Username</label>
-                <input type="text" id="username" name="username">
-            <label for="title">Title</label>
-                <input type="text" id="title" name="title">
-            <label for="username">Username</label>
-                <input type="text" id="username" name="username">
-        </section>
+        <form class="blogLogs">
+            <!-- input section of the blog, username, title, blog text -->
+            <label for="username">Username:</label>
+                    <input type="text" id="username" required>
+            <label for="blogTitle">Blog Title:</label>
+                    <input type="text" id="blogTitle" required>
+            <label for="writingPortion">Write your post:</label>
+                    <input type="text" id="post" required>
+            <button type="submitBtn" id="submitBtn">Submit your post</button>        
+        </form>
+
     </main>
         
 
 
 
     <script src = "./assets/js/logic.js"></script>
+    <script src="./assets/js/form.js"></script>
 </body>
 </html>
