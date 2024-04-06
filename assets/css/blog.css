@@ -3,6 +3,35 @@
 
 
 
+main h2 {    
+    text-align: left;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 0px;
 
+}
 
+/* the 'p:first-of-type' selects the first p in the section (the username) that way it doesnt affect the blog post (second p)*/
+main p:first-of-type {
+    text-align: left;
+    font-size: 16px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
 
+/* the 'p:last-of-type' selects the last p in the section (the blog post) that way it doesnt affect the username (first p)*/
+main p:last-of-type {
+    text-align: left;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.post {
+    border-style: double;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 98%;
+}
