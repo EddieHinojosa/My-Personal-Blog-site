@@ -1,36 +1,7 @@
 
 /* style sheet for the posted blog section */
 
-body .topSec {
-    display: flex;
-    display: grid;
-    grid-template-columns: 16fr 1fr;
-}
 
-.topSec h1{
-    color: black;
-    grid-column: 1;
-}
-
-.topSec button {
-    text-align: center;
-    grid-column: 2;
-}
-
-
-.savedBlogs {
-    grid-gap: 10px;
-    padding-top: 10px;
-    height: 500px;
-    width: 98%;
-    border-style: double;
-}
-
-
-.savedBlogs h1 {
-    text-align: center;
-    
-}
 
 
 

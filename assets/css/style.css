@@ -114,3 +114,37 @@ body {
     
 }
 
+/* -------- */
+
+body .topSec {
+    display: flex;
+    display: grid;
+    grid-template-columns: 16fr 1fr;
+}
+
+/* commented outt his section,as it was caused header title to not change with the lightmode/darkmode */
+/* .topSec h1 {
+    color: black;
+    grid-column: 1;
+    backgr
+} */
+
+.topSec button {
+    text-align: center;
+    grid-column: 2;
+}
+
+
+.savedBlogs {
+    grid-gap: 10px;
+    padding-top: 10px;
+    height: 500px;
+    width: 98%;
+    border-style: double;
+}
+
+
+.savedBlogs h1 {
+    text-align: center;
+    
+}

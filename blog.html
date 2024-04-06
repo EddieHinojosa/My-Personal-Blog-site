@@ -12,12 +12,30 @@
 <body class="lightmode">
     <topSec class = topSec>
         <!-- header part of the saved blog post page-->
-            <h1>Saved blogs posts</h1>
             <button data-theme="lightmode" id="displayChange">☀️ Light Mode</button>
+            <h1>Saved blogs posts</h1>
     </topSec>
 
-    <main>
-        <h1>hello world</h1>
+
+    <main id=blogInput class = "blogInput">  
+            <!-- input section of the blog, username, title, blog text -->
+            <form class="blogLogs">
+                <!-- usename -->
+                <label for="username"> Username:
+                        <input type="text" id="username" required></input>
+                </label>
+                <!-- blog title -->
+                <label for="blogTitle">Blog Title:
+                        <input type="text" id="blogTitle" required></input>
+                </label>    
+                <!-- blog text -->
+                <label for="writingPortion">Write your post:
+                        <input type="text" id="post" required></input>
+                </label>
+                
+                <button type="submit" id="submitBtn">Submit your post</button>        
+            </form>
+    
     </main>
     
 
