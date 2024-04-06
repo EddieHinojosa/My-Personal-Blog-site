@@ -13,15 +13,16 @@ main h2 {
 }
 
 /* the 'p:first-of-type' selects the first p in the section (the username) that way it doesnt affect the blog post (second p)*/
-main p:first-of-type {
+main p:first-of-type { /* username */
     text-align: left;
+    font-weight: bold;
     font-size: 16px;
     margin-top: 0px;
     margin-bottom: 5px;
 }
 
 /* the 'p:last-of-type' selects the last p in the section (the blog post) that way it doesnt affect the username (first p)*/
-main p:last-of-type {
+main p:last-of-type { /* blog text */
     text-align: left;
     font-size: 20px;
     margin-top: 5px;

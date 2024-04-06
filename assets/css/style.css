@@ -11,12 +11,15 @@ header {
 
 
 .light {
-    background-color: white;
+    /* background-color: rgb(163, 205, 208); */
+    background: linear-gradient(to bottom, rgb(114, 152, 209) 0% 9%, rgb(224, 236, 236) 14% 100%);
     color: black;
 }
 
 .dark {
-    background-color: rgb(24, 55, 55);
+    /* background-color: rgb(24, 55, 55); */
+    background: linear-gradient(to bottom, rgb(91, 79, 163) 0% 9%, rgb(36, 47, 92) 14% 100%);
+
     color: rgb(182, 198, 176);
 }
 
