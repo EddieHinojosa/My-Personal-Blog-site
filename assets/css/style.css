@@ -5,12 +5,6 @@ header {
     max-height: 50px;  
 }
 
-header button {
-    grid-column: 100;
-    text-align: center;
-    flex-shrink: 1;
-    cursor: pointer;
-}
 
 /* lightmodes themes */
 
@@ -22,99 +16,13 @@ header button {
 }
 
 .dark {
-    background-color: rgb(15, 30, 30);
-    color: white;
+    background-color: rgb(24, 55, 55);
+    color: rgb(182, 198, 176);
 }
 
 
 
 /* body section */
-
-body {
-    display: grid;
-    grid-gap: 10px;
-    word-wrap: normal;     
-    background-color: white;
-    color: black;
-
-}
-
-
-/* ---------columns */
-
-.columns {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-gap: 10px;
-    padding-top: 10px;
-    height: 500px;
-    width: 98%;
-    border-style: double;
-    }
-
-
-.left-column {
-    display: grid;
-    background-color: rgb(44, 88, 88);
-    grid-column: 1;
-    height: 100%;
-}
-
-.right-column {     
-    display: grid;  
-    background-color: rgba(28, 66, 91, 0.487);
-    height: 100%;
-    grid-template-rows: 1fr 2fr 1fr 2fr 1fr 2fr;
-    flex-wrap: wrap;
-    
-}
-
-
-
-.left-column h1 {
-    text-align: center;
-}
-
-
-.right-column input {
-    text-align: left;
-    color: black;
-    padding-top: 0px;
-    padding-bottom: 10px;
-}
-
-.submitBtn {
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background-color: black;
-}
-
-
-
-
-.header-Introduction {
-    max-height: 60px;
-    background-color: #7a7171;
-    color: #fff;
-    padding: 1rem;
-    text-align: center;
-    flex: flex;
-    align-items: center;
-    justify-content: center;
-    word-wrap: normal;
-    flex-shrink: 1;
-
-}
-
-.header-Introduction h1 {
-    color: rgb(43, 214, 226);
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    font-size: 30px;
-    
-}
-
-/* -------- */
 
 body .topSec {
     display: flex;
@@ -128,11 +36,6 @@ body .topSec {
     grid-column: 1;
     backgr
 } */
-
-.topSec button {
-    text-align: center;
-    grid-column: 2;
-}
 
 
 .savedBlogs {
