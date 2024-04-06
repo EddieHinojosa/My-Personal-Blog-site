@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog logs</title>
+    <title>Write a blog</title>
     <link rel="stylesheet" href="./assets/css/form.css">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
@@ -12,23 +12,23 @@
 <body class="lightmode">
     <topSec class = topSec>
         <!-- header part of the blog page-->
-            <h1>Create your blog</h1>
+            <h1>Welcome to your blog</h1>
             <button data-theme="lightmode" id="displayChange">☀️ Light Mode</button>
-            <link rel="stylesheet" href="Blog.html">View our posts</link>
+            <!-- <link rel="stylesheet" href="Blog.html">View our posts</link>    -------------------- add link to saved blogs -->
     </topSec>
 
     <main id=blogInput class = "blogInput">  
-        
+        <!-- input section of the blog, username, title, blog text -->
         <form class="blogLogs">
-            <!-- input section of the blog, username, title, blog text -->
+            <!-- usename -->
             <label for="username"> Username:
                     <input type="text" id="username" required></input>
             </label>
-
+            <!-- blog title -->
             <label for="blogTitle">Blog Title:
                     <input type="text" id="blogTitle" required></input>
             </label>    
-
+            <!-- blog text -->
             <label for="writingPortion">Write your post:
                     <input type="text" id="post" required></input>
             </label>
@@ -37,10 +37,7 @@
         </form>
 
     </main>
-        
-
-
-
+    
     <script src = "./assets/js/logic.js"></script>
     <script src="./assets/js/form.js"></script>
 </body>

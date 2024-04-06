@@ -1,57 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-    <!-- image source  -->
-<!-- <img src="./assets/images/background-clouds.jpg" alt="background-clouds"> -->
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--title-->
-    <title>My Blog Page</title>
-    <!--link to css-->
+    <title>Saved Blogs</title>
     <link rel="stylesheet" href="./assets/css/style.css">
-    
+    <link rel="stylesheet" href="./assets/css/blog.css">
 </head>
 
 
 <body class="lightmode">
-    <header>
-        <button data-theme="lightmode" id="displayChange">☀️</button>
-    </header>
-    
-    <main>
-        <section class="header-Introduction">
-            <content>
-                <h1>Welcome to my blog</h1>
-            </content>
-        </section>
-        <!-- columns section -->
-        <columns class ="columns">
-            <!-- left column -->
-            <columnLeft class="left-column">
-                <content>
-                    <h1>Tell me something...</h1>
-                </content>
-            <!-- right column -->
-            </columnLeft>
-            <columnRight class="right-column">
-                <input type="text" id="myInput">
-                    <button onclick="saveInput()">Save</button>
-                    <section id="mySection"></section>
-                <input type="text" id="myInput">
-                    <button onclick="saveInput()">Save</button>
-                    <section id="mySection"></section>
-                <input type="text" id="myInput">
-                    <button onclick="saveInput()">Save</button>
-                    <section id="mySection"></section>
-            </columnRight>
+    <topSec class = topSec>
+        <!-- header part of the saved blog post page-->
+            <h1>Saved blogs posts</h1>
+            <button data-theme="lightmode" id="displayChange">☀️ Light Mode</button>
+    </topSec>
 
-            
-        </columns>
-        
-    </main> 
-    <!-- link to logic js -->
+    <main>
+        <h1>hello world</h1>
+    </main>
+    
+
+
+
+
     <script src = "./assets/js/logic.js"></script>
-    <script src = "/assets/js/form.js"></script>
+    <script src="./assets/js/blog.js"></script>
 </body>
 </html>
