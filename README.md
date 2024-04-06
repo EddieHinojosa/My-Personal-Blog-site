@@ -11,3 +11,12 @@ below is a short clip showing some of the features of the blog site.
 
 https://github.com/EddieHinojosa/My-Personal-Blog-site/assets/161403923/2606dbc0-a237-4af8-8da3-f652ada49f47
 
+
+live link:
+https://eddiehinojosa.github.io/My-Personal-Blog-site/
+
+Repo link
+https://github.com/EddieHinojosa/My-Personal-Blog-site.git
+
+Repo SSH
+git@github.com:EddieHinojosa/My-Personal-Blog-site.git
